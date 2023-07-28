@@ -19,6 +19,22 @@ Once all dependencies are installed, you can setup the different conda environme
 bash env_init.sh
 ```
 
+### Executing program
+* Create a directory and place all collected audio/video clips inside (i.e., /ANDC/audios)
+* Run the script proding the root directory containing the audios
+```
+bash run.sh -r /ANDC
+```
+* A directory will be created in the root directory named Outputs (i.e., /ANDC/Outputs) that contains all the generated files. Short_files.json is the json file which contains all the information needed to filter the short files (2.75-11 seconds) for annotations.
+
+#TODO: add details for the json files
+#TODO: add details on the file structure used in Outputs
+#TODO: add Luz's code
+
+
+#TODO: remove extracted features once all inference has been complete
+
+
 
 ## License
 
