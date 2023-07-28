@@ -34,7 +34,7 @@ python ./Segmentation/Whisper/segmentation.py --root $root_dir
 
 conda activate aligner
     cd Segmentation/MFA
-        bash step2_MFA_run.sh -r "$root_dir"
+    bash step2_MFA_run.sh -r "$root_dir"
     cd -
 conda deactivate
 
@@ -113,7 +113,6 @@ conda deactivate
 ############################################################
 
 conda activate ssl #
-
     cd Emotions/ssl
     python prediction_classifier.py --root $root_dir
     cd -
@@ -121,7 +120,7 @@ conda deactivate
 
 
 ############################################################
-# Step9: ranknet VAD preds             #
+# Step9: ranknet arousal preds                             #
 ############################################################
 
 conda activate tf2_new
@@ -132,7 +131,7 @@ conda deactivate
 
 
 ############################################################
-# Step9: ranknet VAD preds             #
+# Step10: ranking VAD preds                                #
 ############################################################
 
 conda activate tf2_new
@@ -146,7 +145,7 @@ conda deactivate
 
 
 ############################################################
-# Step9: ranknet VAD preds             #
+# Step11: ladderpref VAD preds                             #
 ############################################################
 
 conda activate tf2_new
