@@ -1,0 +1,24 @@
+{
+    "RawDataIndicator":{
+        "data_split":{
+            "Train": "Train", "train": "Train",
+            "Validation": "Validation", "dev": "Validation", "dev-1.10": "Development", "Development": "Development",
+            "Test1": "Test1", "Test": "Test1", "test": "Test1",
+            "Test2": "Test2"
+        }
+    },
+
+
+
+
+
+
+    "MSP-Podcast":{
+        "Partition": "/media/kyunster/hdd/corpus/MSP_Podcast_1.8/Partitions.txt",
+        "label": "/media/kyunster/hdd/corpus/MSP_Podcast_1.8/Labels/labels_concensus.csv",
+        "wav":{
+            "clean": "/media/kyunster/hdd/corpus/MSP_Podcast_1.8/Audios"
+        }
+    }
+        
+}
