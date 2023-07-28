@@ -1,5 +1,5 @@
 # ANDC
-Affective non-realistic database consortium
+Affective naturalistic database consortium
 
 
 ## Getting Started
