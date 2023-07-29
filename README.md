@@ -34,6 +34,7 @@ bash run.sh -r /ANDC
 
 #TODO: remove extracted features once all inference has been complete
 
+#TODO: WRITE ABOUT HOW ANYBODY CAN SHARE THEIR MODELS HERE TO CONTRIBUTE IN THIS WORK WITHOUT DISTURBING THE FLOW OF THE PIPELINE.
 
 
 ## License
