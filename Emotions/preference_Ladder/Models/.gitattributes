@@ -1,4 +1,0 @@
-*.h5 filter=lfs diff=lfs merge=lfs -text
-LSTM_model[epoch2-batch1-lr1e-06]_RnnAttenVec_val_weights.h5 filter=lfs diff=lfs merge=lfs -text
-LSTM_model[epoch8-batch1-lr1e-06]_RnnAttenVec_aro_weights.h5 filter=lfs diff=lfs merge=lfs -text
-LSTM_model[epoch8-batch1-lr1e-06]_RnnAttenVec_Dom_weights.h5 filter=lfs diff=lfs merge=lfs -text
