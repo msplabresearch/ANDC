@@ -1,5 +1,5 @@
 # ANDC
-Affective naturalistic database consortium
+Affective Naturalistic Database Consortium
 
 
 ## Getting Started
@@ -16,8 +16,9 @@ Please make sure the following dependencies are installed before using this repo
 ### Installing
 Once all dependencies are installed, you can setup the different conda environments to be used by going to /env_setup and running 
 ```
-bash env_init.sh
+bash create_conda_envs.sh
 ```
+Additionally we use "aligner" for the MFA environment as defined in [MFA installer](https://montreal-forced-aligner.readthedocs.io/en/latest/installation.html)
 
 ### Executing program
 * Create a directory and place all collected audio/video clips inside (i.e., /ANDC/audios)
