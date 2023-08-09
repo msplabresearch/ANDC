@@ -35,11 +35,11 @@ bash run.sh -r /ANDC_batches/2023_7_29
 * All files will be saved inside the provided directory. Mainly Short_files.json will be created which aggregates all the information (segmentation, gender, music, SNR, emotions, etc). Furthermore, a directory will be created named Outputs which will contains the short and long audio clips as well as extracted features such as ASR.
 
 
-
-* #TODO: Add details for the json files
-* #TODO: Add details on the file structure used in Outputs
-* #TODO: Remove extracted features once all inference has been complete
-* #TODO: Add GPU support
+<h2 align="left" id="coming-soon">TODO 🗓</h2>
+* Add details for the json files
+* Add details on the file structure used in Outputs
+* Remove extracted features once all inference has been complete
+* Add GPU support
 
 
 # Contribute to the project
