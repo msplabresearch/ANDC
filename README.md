@@ -34,10 +34,13 @@ bash run.sh -r /ANDC_batches/2023_7_29
 ```
 * All files will be saved inside the provided directory. Mainly Short_files.json will be created which aggregates all the information (segmentation, gender, music, SNR, emotions, etc). Furthermore, a directory will be created named Outputs which will contains the short and long audio clips as well as extracted features such as ASR.
 
-#TODO: add details for the json files
-#TODO: add details on the file structure used in Outputs
 
-#TODO: remove extracted features once all inference has been complete
+
+* #TODO: Add details for the json files
+* #TODO: Add details on the file structure used in Outputs
+* #TODO: Remove extracted features once all inference has been complete
+* #TODO: Add GPU support
+
 
 # Contribute to the project
 We highly encourage contribution to this repository. Feel free to fork it and add your own models and play with the code. We provide a template in /Template that can be used as the starting point. Once you develope your code, you can add the the run command and your own environment to the run.sh file. Finally, create a pull request if you want to contribute and share your models!
