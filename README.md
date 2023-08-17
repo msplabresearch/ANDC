@@ -37,9 +37,9 @@ bash run.sh -r /ANDC_batches/2023_7_29
 
 ### TODO 🗓
 - [x] Add details for the json files
-* [x] Add details on the file structure used in Outputs
-* [x] Remove extracted features once all inference has been complete
-* [x] Add GPU support
+- [x] Add details on the file structure used in Outputs
+- [x] Remove extracted features once all inference has been complete
+- [x] Add GPU support
 
 
 # Contribute to the project
