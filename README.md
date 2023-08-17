@@ -36,7 +36,7 @@ bash run.sh -r /ANDC_batches/2023_7_29
 
 
 <h2 align="left" id="coming-soon">TODO 🗓</h2>
-*[x] Add details for the json files
+- [x] Add details for the json files
 * [x] Add details on the file structure used in Outputs
 * [x] Remove extracted features once all inference has been complete
 * [x] Add GPU support
